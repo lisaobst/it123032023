@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Unser Team</title>
+</head>
+
+<body>
+	<p>Ein Beispiel für ein relativ eingebundenes Bild relativ zum Wurzelverzeichnis. Funktioniert die folgende Verlinkung?
+	Und wenn nein, weshalb nicht?</p>
+
+	<img src="bilder/legofiguren_small.jpg" alt="Ein Beispielbild" />
+	
+	<p>Die Lösung wäre ein relativ eingebundenes Bild relativ zum Wurzelverzeichnis. Von dem Unterverzeichnis team müssen müssen wir erst mit der Angabe ../ ein Verzeichnis höher gehen. Wir befinden uns dann im Unterverzeichnis "Unterseiten". Mit der wiederholten Angabe von ../ wechseln wir in das Verzeichnis "erfahrung2". Dort gibt es den Unterordner "bilder"</p>
+
+	<img src="../../bilder/legofiguren_small.jpg" alt="Ein Beispielbild" />
+	
+	<p><a href="../../">Ein Link zur Hauptseite im public_html-Ordner wäre so möglich, da es in dem Ziel-Verzeichnis eine index.html-Datei gibt. Wäre diese nicht vorhanden, müsste der Name angegeben werden. Also bspw. href="../../impressum.html"</a></p>
+	
+	
+	<p><a href="./management.html">Ein Link zu einer Seite / Ressource auf der gleichen Ebene kann mit ./namename.Endung angegeben werden</a>
+	<a href="management.html">Alternativ wird einfach nur der Dateiname der Ressource angegeben, die auf gleicher Ebene vorhanden ist.</a>
+	</p>
+	
+	
+	
+	
+	
+</body>
+</html>
